@@ -1,0 +1,24 @@
+# database
+feature_names: ["feat_a1", "feat_a2", "feat_a3", "feat_a4", "feat_a5", "feat_a6",
+                "feat_b1", "feat_b2", "feat_b3", "feat_b4", "feat_b5", "feat_b6",
+                "feat_c1", "feat_c2", "feat_c3", "feat_c4", "feat_c5", "feat_c6",
+                "feat_c7", "feat_c8", "feat_c9", "feat_c10", "feat_c11"]
+label_name: "label_a"
+label_max: 13.982028007507324
+label_min: -11.172813415527344
+
+# train_data
+train_start_date: 20150101
+train_end_date: 20171231
+cache_train: "cache/train"
+
+# test_data
+test_start_date: 20180101
+test_end_date: 20230717
+cache_test: "cache/test"
+
+# get_data
+timestep: 60
+input_size: 23
+use_cache: True
+

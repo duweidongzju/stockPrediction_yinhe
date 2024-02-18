@@ -1,0 +1,27 @@
+gru:
+  model_type: gru
+  feature_size: 23
+  hidden_size: 1024
+  num_layers: 3
+  output_size: 1
+gru1:
+  model_type: gru
+  feature_size: 23
+  hidden_size: 512
+  num_layers: 3
+  output_size: 1
+TransAm:
+  model_type: transformer
+  feature_size: 23
+  num_layers: 1
+  dropout: 0.1
+
+GRU_TransAm:
+  model_type: gru+transformer
+  feature_size: 23
+  num_layers_tran: 1
+  dropout: 0.1
+  hidden_size_gru: 512
+  num_layers_gru: 3
+  output_size: 1
+
